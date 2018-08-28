@@ -7,9 +7,9 @@ using namespace std;
 
 int main() {
     srand ( time(0) ); // seed the random generator
-	cout << "time now is: " << time(NULL) << endl;
-	cout << rand() << endl;
-	cout << rand() << endl;
+	// cout << "time now is: " << time(NULL) << endl;
+	// cout << rand() << endl;
+	// cout << rand() << endl;
 	int size, cap, pick=1, opt=1;
 	vector<int> list(size+1,0);
 
@@ -26,10 +26,11 @@ int main() {
 		if ( list[lotto] != 0 ) continue;
 		list[lotto]++;
 		if(opt==1) {
-		    string s = ((pick==1) ? "st" : 
-		               ((pick==2) ? "nd" : 
-		               ((pick==3) ? "rd" :"th")));
-		    cout << pick++ << s << " pick: " << lotto << endl; 
+		    // string s = ((pick==1) ? "st" : 
+		    //           ((pick==2) ? "nd" : 
+		    //           ((pick==3) ? "rd" :"th")));
+		    // cout << pick++ << s << " pick: " << lotto << endl; 
+		    cout << pick++ << " pick: " << lotto << endl; 
 		}
 	    else {
     		cout << "The winner " << pick++ << " is " << lotto << "  ... press for next ";
