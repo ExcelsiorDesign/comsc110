@@ -3,8 +3,8 @@ using namespace std;
 
 int main() {
     int ivar;
-    cout << "enter an integer: ";
-    cin >> ivar ;
+    std::cout << "enter an integer: ";
+    std::cin >> ivar ;
     cout << "Hello world!" << endl;
     cout << "You have entered " << ivar;
 }
