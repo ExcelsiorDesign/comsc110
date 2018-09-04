@@ -2,7 +2,7 @@
 using namespace std;
 
 int main() {
-    int i=123;
+    const int i=123; // i = i+1; // i++;
     short s=123456789012;
     long l=123456789012;;;;;;
     cout << "int i is " << i << ", size is " << sizeof(i) << endl
