@@ -1,11 +1,21 @@
 #include <iostream>
 #include <iomanip>
+#include <string>
 using namespace std;
 
 int main() {
+    
+    cout << "\nEnter a text string: ";
+    
+    string str2;
+    getline(cin, str2);
+    cout << str2 << endl;
+    
+    string str="hello, you have entered: ";
+    
     int i, j=2;
     double d, f=3.4567;
-    string str="hello, you have entered: ";
+    
     
     cout << "enter an integer: ";
     cin >> i;
@@ -20,6 +30,7 @@ int main() {
          << j << ", " << f << ", "
          << setw(20) << right 
          << fixed << setprecision(2) << f  << ", something";
+
     
     
 }
