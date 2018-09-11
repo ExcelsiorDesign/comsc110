@@ -16,6 +16,10 @@ int main() {
          << j << ", " << f << ", "
          << fixed << setprecision(2) << f ;
 
+    cout << "\nAlternative form: " 
+         << j << ", " << f << ", "
+         << setw(20) << right 
+         << fixed << setprecision(2) << f  << ", something";
     
     
 }
