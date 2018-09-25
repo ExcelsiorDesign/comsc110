@@ -27,6 +27,7 @@ Running /home/ubuntu/workspace/comsc110/review/randomnumber.cpp
 
 BRANCHES
 
+if, else, else if
 
 LOOPS
 
