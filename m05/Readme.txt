@@ -39,3 +39,12 @@ Textbook:
 6.15 The exit() Function, pr6-29.cpp
 
 6.16 Stubs and Drivers 
+
+
+In-class exercise:
+
+1a. change pr6-24.cpp line 6 to the following 
+   void displayStars(int = 10, int );
+
+1b. change pr-24.cpp line 24 to the following
+   void displayStars(int cols=4, int rows=1)

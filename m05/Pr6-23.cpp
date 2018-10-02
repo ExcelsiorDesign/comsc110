@@ -13,15 +13,10 @@ int main()
    return 0;
 }
 
-//**************************************************************
-// Definition of function showStatic.                          *
-// statNum is a static local variable. Its value is displayed  *
-// and then incremented just before the function returns.      *
-//**************************************************************
 
 void showStatic()
 {
-   static int statNum = 5;
+   static int statNum = 1;
 
    cout << "statNum is " << statNum << endl;
    statNum++;
