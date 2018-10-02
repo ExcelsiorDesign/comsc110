@@ -3,11 +3,11 @@
 using namespace std;
 
 // Function prototype with default arguments
-void displayStars(int = 10, int = 1);
+void displayStars(int  , int=1 );
 
 int main()
 {
-   displayStars();      // Use default values for cols and rows.
+//   displayStars();      // Use default values for cols and rows.
    cout << endl;
    displayStars(5);     // Use default value for rows.
    cout << endl;

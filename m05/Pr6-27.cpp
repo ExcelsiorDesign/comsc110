@@ -6,6 +6,7 @@ using namespace std;
 // Function prototypes
 int square(int);
 double square(double);
+string square(string);
 
 int main()
 {
@@ -20,27 +21,15 @@ int main()
    // Display their squares.
    cout << "Here are their squares: ";
    cout << square(userInt) << " and " << square(userFloat);
+   cout << square("this");
    return 0;
 }
 
-//**************************************************************
-// Definition of overloaded function square.                   *
-// This function uses an int parameter, number. It returns the *
-// square of number as an int.                                 *
-//**************************************************************
-
-int square(int number)
-{
-   return number * number;
-}
-
-//***************************************************************
-// Definition of overloaded function square.                    *
-// This function uses a double parameter, number. It returns    *
-// the square of number as a double.                            *
-//***************************************************************
-
-double square(double number)
-{
-   return number * number;
+int square(int number) { return number * number;}
+double square(double number) { return number * number; }
+string square( string s ) {
+   string sq;  
+   for(int i=0; i<s.size(); i++)
+      sq += "\n" + s; 
+   return sq;
 }

@@ -41,7 +41,7 @@ Textbook:
 6.16 Stubs and Drivers 
 
 
-In-class exercise:
+In-class Module 5 exercise:
 
 1a. change pr6-24.cpp line 6 to the following 
    void displayStars(int = 10, int );
@@ -49,3 +49,5 @@ then change it back.
 
 1b. change pr6-24.cpp line 24 to the following
    void displayStars(int cols=4, int rows=1)
+   
+Explain the result.... of the compil

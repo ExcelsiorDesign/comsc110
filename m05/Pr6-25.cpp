@@ -6,8 +6,7 @@ using namespace std;
 // Function prototype. The parameter is a reference variable.
 void doubleNum(int &);
 
-int main()
-{
+int main() {
    int value = 4;
 
    cout << "In main, value is " << value << endl;
@@ -17,13 +16,7 @@ int main()
    return 0;
 }
 
-//**********************************************************
-// Definition of doubleNum.                                *
-// The parameter refVar is a reference variable. The value *
-// in refVar is doubled.                                   *
-//**********************************************************
-
-void doubleNum (int &refVar)
-{
+void doubleNum (int &refVar) {
+   cout << refVar << endl;
    refVar *= 2;
 }
