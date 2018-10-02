@@ -5,7 +5,7 @@ using namespace std;
 
 int main() {
     // random number generator
-    int t = time(0);
+    int t = time(0); 
     srand ( t ); // seed variable to generator
     // srand ( 0 ); // seed constant
     
@@ -21,5 +21,7 @@ int main() {
     // cout << "\noutput is "<< i/5.0;
     // k = j % i;
     // cout << "\noutput of 5 % 3 is " << k;
+    
+    getline
     
 }
