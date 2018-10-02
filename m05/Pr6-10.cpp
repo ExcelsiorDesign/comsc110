@@ -27,10 +27,19 @@ int main()
    // Set up numeric output formatting.
    cout << fixed << showpoint << setprecision(2);
    
+   auto menu=[]() {
+      cout << "\n\t\tHealth Club Membership Menu\n\n"
+           << "1. Standard Adult Membership\n"
+           << "2. Child Membership\n"
+           << "3. Senior Citizen Membership\n"
+           << "4. Quit the Program\n\n"
+           << "Enter your choice: ";
+   };
+   
    do
    {
       // Display the menu and get the user's choice.
-      showMenu();
+      menu();
       cin >> choice;
       
       // Validate the menu selection.
