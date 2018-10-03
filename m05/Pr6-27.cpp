@@ -21,7 +21,7 @@ int main()
    // Display their squares.
    cout << "Here are their squares: ";
    cout << square(userInt) << " and " << square(userFloat);
-   cout << square("this");
+   cout << square("abcde");
    return 0;
 }
 
