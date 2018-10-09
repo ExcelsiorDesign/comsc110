@@ -17,6 +17,6 @@ int main() {
 }
 
 void doubleNum (int &refVar) {
-   cout << refVar << endl;
+   // cout << refVar << endl;
    refVar *= 2;
 }
