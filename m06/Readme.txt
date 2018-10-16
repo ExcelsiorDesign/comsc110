@@ -45,7 +45,7 @@ Using range-for loop to implement the following:
 
 bubbleSort.cpp
 
-Exercise 6B bubbleSort2.cpp
+Exercise 6B bubbleSort2.cpp (practice, no submit)
 The example bubbleSort.cpp is one of the two bubble sort implementations:
     Sort the larger of the two adjacent items to the right side (bubble down.)
     
@@ -87,14 +87,17 @@ Running /home/ubuntu/workspace/m06/bubbleSortSmall.cpp
 0 1 2 3 4 5 7 6 8 9 
 
 
-EXERCISE 6C selectSort.cpp (improved bubbleSort)
-The selectSort.cpp is one of the two select sort implementations:
-    
+EXERCISE 6C sort.h, test_sort.cpp (improved bubbleSort)
+The selectSort used in sort.h is one of the two select sort implementations:
+
     Step 1. Designate the right side as the sorted region.
     Step 2. Find the largest item INDEX of the unsorted.
     Step 3+4 Swap the largest with the far right of the unsorted.
     Step 5. Repeat step 2 - 5, until no more unsorted items.
-    
+
+The example is sort the smallest one to the left (sorted) region.
+Change it to sort the largest one to the sorted (right) region.
+
 
 // Compilation using Linux command console
 // main_arg.cpp
