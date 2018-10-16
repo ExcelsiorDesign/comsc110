@@ -95,7 +95,7 @@ The selectSort used in sort.h is one of the two select sort implementations:
     Step 3+4 Swap the largest with the far right of the unsorted.
     Step 5. Repeat step 2 - 5, until no more unsorted items.
 
-The example is sort the smallest one to the left (sorted) region.
+The example is to sort the smallest one to the left (sorted) region.
 Change it to sort the largest one to the sorted (right) region.
 
 
