@@ -17,6 +17,8 @@ int main() {
                 swap(arr[j], arr[j+1]);
             }
         }
+        for( auto x:arr ) cout << x << " ";
+        cout << "***" << endl;
     }
                 
     for( auto x:arr ) cout << x << " ";
