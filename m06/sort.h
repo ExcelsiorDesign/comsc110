@@ -18,9 +18,6 @@ std::vector<int> sort( std::vector<int> xyz )
                 smallest = j;
         }
         swap(xyz[i], xyz[smallest]);
-        // temp = xyz[i];
-        // xyz[i] = xyz[smallest];
-        // xyz[smallest] = temp;
         for(auto item:xyz) std::cout << item << " ";
         std::cout << std::endl;
     }
