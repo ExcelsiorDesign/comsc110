@@ -43,9 +43,9 @@ Using range-for loop to implement the following:
 7.10 Arrays with Three or More Dimensions 
 7.12 Introduction to the STL vector 
 
-Example bubbleSort.cpp
+bubbleSort.cpp
 
-EXERCISE 6A bubbleSort2.cpp
+Exercise 6B bubbleSort2.cpp
 The example bubbleSort.cpp is one of the two bubble sort implementations:
     Sort the larger of the two adjacent items to the right side (bubble down.)
     
@@ -87,7 +87,7 @@ Running /home/ubuntu/workspace/m06/bubbleSortSmall.cpp
 0 1 2 3 4 5 7 6 8 9 
 
 
-EXERCISE 6B selectSort.cpp (improved bubbleSort)
+EXERCISE 6C selectSort.cpp (improved bubbleSort)
 The selectSort.cpp is one of the two select sort implementations:
     
     Step 1. Designate the right side as the sorted region.
