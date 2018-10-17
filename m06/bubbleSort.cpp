@@ -21,18 +21,13 @@ int main() {
     
     cout << endl << endl;
     
-    // bubble sort
-    for(int i=0; i<Size-1; i++ ) {
-        for(int j=Size-i-1; 0<=j; j--) {
+    // bubble sort (to order from left to right)
+    // diagnal in-order from lower-left to upper-right
+    for(int i=0; i<Size; i++ ) {
+        for(int j=0; j<Size-i-1; j++) {
             if(arr[j] > arr[j+1]) {
                 swap(arr[j], arr[j+1]);
-            
-                // int large = arr[j];
-                // arr[j] = arr[j+1];
-                // arr[j+1] = large;
             }
-            // for(auto x:arr) cout << x << " "; 
-            // cout << endl;
         }
         for(auto x:arr) cout << x << " "; 
         cout << endl;

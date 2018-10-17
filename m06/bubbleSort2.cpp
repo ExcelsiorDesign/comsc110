@@ -10,16 +10,15 @@ int main() {
     for( auto x:arr ) cout << x << " ";
     cout << endl << endl;
     
-    // bubble sort
-    for(int i=0; i<Size-1; i++ ) {
-        for(int j=Size-i-1; 0<=j; j--) {
-            if(arr[j] > arr[j+1]) {
-                swap(arr[j], arr[j+1]);
+    // bubble sort (to order from right to left)
+    // diagnal in-order from upper-right to lower-left
+    for(int i=Size-1; 0<i; i--) {
+        for(int j=Size-i; 0<j; j--) {
+            if(arr[j-1] > arr[j]) {
+                swap(arr[j-1], arr[j]);
             }
         }
-        for( auto x:arr ) cout << x << " ";
-        cout << "***" << endl;
+        for(auto x:arr) cout << x << " "; 
+        cout << endl;
     }
-                
-    for( auto x:arr ) cout << x << " ";
 }
