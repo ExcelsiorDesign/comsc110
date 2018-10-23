@@ -35,3 +35,35 @@ Module 7 Text Files
     Pr12-4.cpp
 // using string class method find()
     using_string_find()
+    
+    
+    
+
+
+
+// the following is the bash interaction for comppiling 
+// the (m06/) main_arg.cpp 
+
+react:~/workspace/m07 (master) $ cd 
+react:~ $ pwd
+/home/ubuntu
+react:~ $ cd workspace/
+react:~/workspace (master) $ ls
+README.md  Syllabus.html  m01/  m02/  m03/  m04/  m05/  m06/  m07/
+react:~/workspace (master) $ cd m06
+react:~/workspace/m06 (master) $ ls m*
+main_arg.cpp
+react:~/workspace/m06 (master) $ g++ -o main_arg main_arg.cpp                                                                       
+react:~/workspace/m06 (master) $ g++ -o main_arg.o main_arg.cpp
+react:~/workspace/m06 (master) $ g++ main_arg.cpp
+react:~/workspace/m06 (master) $ main_arg.o
+bash: main_arg.o: command not found
+react:~/workspace/m06 (master) $ main_arg
+bash: main_arg: command not found
+react:~/workspace/m06 (master) $ ./main_arg.o
+the argument that you have entered are:
+./main_arg.o 
+react:~/workspace/m06 (master) $ ./main_arg.o 123 456 xyz 12.345
+the argument that you have entered are:
+./main_arg.o 123 456 xyz 12.345 
+react:~/workspace/m06 (master) $ 
