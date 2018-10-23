@@ -1,5 +1,11 @@
 Module 7 Text Files
 
+// Review previous subjects
+ 1. console to main interface uses array m06/main_arg.cpp
+ 2.1 sorting be very efficient, with skillful loop algorithmic design
+ 2.2 differnt sorts will be revisited at module 10
+
+// All Text File topics starting here
 // Ch 5.12 Text File
     Pr5-15 // rename the outputFile as fout <-- design pattern (cout)
     Pr5-17 // use << >> operator
